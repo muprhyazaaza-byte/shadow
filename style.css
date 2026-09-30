@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+header {
+    height: 65px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 15px;
+}
+
+.logo {
+    width: 35px;
+}
+
+.play {
+    background: #55aaf0;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    color: white;
+
+}
+
+.monthly {
+    font-size: 9px;
+    color: #aaa;
+}
+
+.language {
+    margin-left: auto;
+    font-size: 9px;
+    color: #ddd;
+}
+
+.hero {
+    height: 1024px;
+    position: relative;
+    background-image: url("image\ 1\ \(5\).png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    position: absolute;
+    top: 273px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffc400;
+    color: #111;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 3px solid #111;
+}
+
+.players {
+    position: absolute;
+    top: 478px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.player {
+    width: 31%;
+    height: 353px;
+    position: relative;
+    box-shadow: 0 5px 8px #faf9f9;
+}
+
+
+
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 28px;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffd400;
+
+    font-size: 13px;
+}
+
+
+
+.information {
+    width: 92%;
+    max-width: 1000px;
+    margin: 20px auto 30px;
+}
+
+.information h1 {
+    text-align: center;
+    color: #aaa;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 45px;
+}
+.info-block img {
+    width: 48%;
+    height: 130px;
+    object-fit: cover;
+}
+.text {
+    flex: 1;
+}
+.text p {
+    font-size: 12px;
+  
+    margin-bottom: 15px;
+}
+.text button {
+    background-color:#555 ;
+    color: white;
+    border: 2px solid #aaa;
+    padding: 7px 25px;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #ffc400;
+}
+.text button:hover {
+    background: #777;
+}
+.reverse {
+    justify-content: space-between;
+}
+footer {
+    height: 65px;
+    background: #ffc400;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+.footer-logo {
+    width: 25px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+
+    color: black;
+    font-size: 22px;
+}
+
